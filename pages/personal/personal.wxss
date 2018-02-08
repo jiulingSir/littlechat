@@ -1,0 +1,39 @@
+ .userImg{
+ 	height:220rpx;
+	padding-top:80rpx;
+	border-bottom:20rpx solid #eee; 
+ }
+ .userImg .bg{
+ 	width:100%;
+	height:300rpx;
+	position:absolute;
+	z-index:-1;
+	top:0; 
+ }
+ .userImg .user{ 
+ 	width: 150rpx;
+ 	height: 150rpx;
+ 	display: block;
+ 	margin:0 auto;
+ 	border-radius: 50%;
+ 	overflow:hidden;
+ }
+ .userImg .avator{
+ 	width: 150rpx;
+ 	height: 150rpx;
+ }
+ .person{
+	font-size:30rpx;
+	display: flex;
+	margin:19rpx 0;
+	padding:0 15rpx;
+	background:#fff;
+	border-bottom:5rpx solid #eee;
+	padding-bottom:15rpx; 
+ }
+ .arrow{
+ 	width: 32rpx;
+ 	height: 32rpx;
+ 	margin-top:5rpx;
+    margin-right:8rpx;
+ }

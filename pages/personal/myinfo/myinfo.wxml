@@ -1,0 +1,26 @@
+<view class="listItem">
+	<scroll-view scroll-y="true" bindscrolltolower="loadbottom" class="scrollview"> 
+	    <view class="navList">
+	      <view class="listItem" wx:for="{{infos}}" wx:key="infoid"> 
+	        <view class="item_header">
+	          <view class="header_left"><image src="{{item.avatarUrl}}"/></view>
+	          <view class="header_title">
+	            <view class="title_name">{{item.nickName}}</view>
+	            <view class="title_time">{{item.create_time}}</view>
+	          </view>
+	        </view>
+	        <view class="item_bottom">
+	          <view class="right_detail">
+	            <view class="detail_intro">{{item.content}}</view> 
+	            <view class="detail_img">
+	              <image wx:for="{{item.file}}" wx:key="fileId" src="{{item}}" mode="aspectFill" bindtap="previewImage" data-index="{{item}}"/> 
+	            </view> 
+	            <view style='clear:both;'></view>
+	          </view>
+	        </view>
+	      </view>
+	      <view class="loading" hidden="{{!searchLoading}}">正在载入更多...</view> 
+	      <view class="loading complete" hidden="{{!searchLoadingComplete}}">已加载全部</view>
+	    </view>
+	</scroll-view> 
+</view>

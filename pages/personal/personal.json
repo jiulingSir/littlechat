@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "footer": "../../components/footer/footer"
+  },
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#0387FE",
+  "navigationBarTextStyle": "white"
+}

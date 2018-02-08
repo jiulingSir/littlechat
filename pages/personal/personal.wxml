@@ -1,0 +1,6 @@
+<!-- <loading hidden="{{hiddenLoading}}">正在加载</loading> -->
+<view class="userImg"> 
+	<view class="user"><image src="{{UserImg}}" class="avator"/>{{nickame}}</view> 
+</view>
+<view class="person" bindtap="bindFocus"><image src="../../images/personal/arrow.png" class="arrow"/>我的发布</view>
+<footer id="footer" home="../../images/common/home.png" personalactive="active" msg="../../images/common/message.png" personal="../../images/common/selectpersonal.png" bind:redirectHome="_redirectHome" bind:redirectLogs="_redirectLogs" bind:redirectPersonal="_redirectPersonal"></footer>

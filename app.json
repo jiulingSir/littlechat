@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personal/personal",
+    "pages/personal/myinfo/myinfo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"black"
+  }, 
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    }  
+}

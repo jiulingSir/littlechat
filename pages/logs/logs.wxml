@@ -1,0 +1,22 @@
+<form bindsubmit="formSubmit">  
+
+  <view class="header">
+   <image src="../../images/upload/back.png" bindtap="back" class="back"/>
+  </view>
+  <view class="content"> 
+    <textarea placeholder="这一刻的想法" bindinput="clicktext"/>
+  </view> 
+  <view class="upload"> 
+    <image src="{{item}}" wx:for="{{imgUrl}}" wx:key="imgId" data-index="{{index}}" bindtap="previewImage"/>
+  	<image src="../../images/upload/file-upload.png" bindtap="chooseImg"/>
+  </view>
+  <view class="btn-area">
+    <button formType="submit" disabled="{{disabled}}" size="mini" hover-class="hover_btn">发布</button> 
+  </view>
+</form>
+<view class="wetoast" wx:if="{{showToast}}">
+    <view class="wetoast__mask"></view>
+    <view class="wetoast__bd"> 
+            <view class="wetoast__bd__title">请完善信息</view> 
+    </view>
+</view>

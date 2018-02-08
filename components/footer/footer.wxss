@@ -1,0 +1,26 @@
+.footer {
+	display: flex;
+    font-size: 28rpx;
+    position: fixed;
+    bottom: 0;
+    height: 100rpx;
+    background-color: #fff;
+    align-items: center;
+    width: 100%;
+    border-top: 2rpx solid #eee;
+    justify-content: space-around;
+}
+.footer .active{
+    color: #0387FE;
+}
+.footer .footer_item{
+    width:80rpx;
+    text-align:center;
+}
+.footer .footer_item image{
+    width: 35rpx;
+    height: 35rpx;
+    margin:0 auto;
+    display: block;
+    margin-bottom: 5rpx;
+}

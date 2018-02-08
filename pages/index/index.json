@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "footer": "../../components/footer/footer"
+  }, 
+  "navigationBarBackgroundColor": "#0387FE",
+  "navigationBarTextStyle": "white"
+}

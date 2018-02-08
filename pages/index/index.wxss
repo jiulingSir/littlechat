@@ -1,0 +1,91 @@
+/**index.wxss**/
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}*/
+page{
+	background:#F9F9F9;
+}
+.nav{
+	height: 80rpx;
+	background-color: #fff;
+	margin:20rpx 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.nav_item{
+	float: left;
+	font-size: 15px;
+	color: #333;
+	line-height: 80rpx;
+	padding: 0 5%;
+	text-align: center;
+}
+.navList {
+	margin-top:10rpx;
+}
+.navList .listItem{ 
+	background-color: #fff;
+	margin:10rpx 0;
+	border-bottom: 1px solid #eee;
+	padding: 20rpx;
+} 
+.navList .listItem .item_header{
+	display: flex;
+}
+.navList .listItem .item_header .header_left image{
+	width: 80rpx;
+	height: 80rpx;
+	margin:0 auto;
+	display: block;
+} 
+.navList .listItem .item_header .header_title{
+	margin-left: 25rpx;
+}
+.navList .listItem .item_header .header_title .title_name{
+	font-size: 30rpx;
+	margin-bottom: 8rpx;
+}
+.navList .listItem .item_header .header_title .title_time{
+	font-size: 26rpx;
+	color: #999;
+}
+.navList .listItem .item_bottom image{
+	width:225rpx;
+	height:225rpx;
+	margin-right:10rpx; 
+}
+.navList .listItem .item_bottom .detail_intro{
+	font-size: 30rpx;
+    margin:15rpx 0; 
+}
+.loading{
+	font-size:30rpx;
+	text-align:center;
+	padding-bottom:10rpx; 
+}
+
+.usermotto {
+  margin-top: 200rpx;
+}
+image{
+	width: 100%;
+} 
+scroll-view{
+  position: absolute; 
+ bottom: 100rpx; 
+ left: 0; 
+ right: 0; 
+ top: 310rpx; 
+}  

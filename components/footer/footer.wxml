@@ -1,0 +1,6 @@
+ 
+	<view class="footer">
+	  <view class="footer_item {{homeactive}}" bindtap="_redirectHome"><image src="{{home}}"/>首页</view>
+	  <view class="footer_item {{msgactive}}" bindtap="_redirectLogs"><image src="{{msg}}"/>上传</view>
+	  <view class="footer_item {{personalactive}}" bindtap="_redirectPersonal"><image src="{{personal}}"/>个人</view>
+	</view>	 
